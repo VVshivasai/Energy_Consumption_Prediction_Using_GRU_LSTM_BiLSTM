@@ -13,7 +13,7 @@ Before you can experiment with the code, you'll have to make sure that you have 
 
 1. Clone the repository, and navigate to the downloaded folder.
 ```
- 
+ https://github.com/VVshivasai/Energy_Consumption_Prediction_Using_GRU_LSTM_BiLSTM
 ```
 
 2. Create (and activate) a new environment, named `energy_env` with Python 3.8. If prompted to proceed with the install `(Proceed [y]/n)` type y.
