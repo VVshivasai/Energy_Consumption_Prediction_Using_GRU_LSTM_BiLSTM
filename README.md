@@ -1,7 +1,7 @@
-# Energy consumption prediction using LSTM/GRU networks in PyTorch
+# Energy consumption prediction using LSTM/GRU/BiLSTM networks in PyTorch
 
 ## Project Overview
-An hourly energy consumption prediction service for PJM Interconnection LLC Energy Consumption dataset based on GRU/LSTM networks using PyTorch framework.
+An hourly energy consumption prediction service for PJM Interconnection LLC Energy Consumption dataset based on GRU/LSTM/BiLSTM networks using PyTorch framework.
 
 In this project, I will use GRU,LSTM and BiLSTM models for a time series prediction task. The goal is to **create a model that can accurately predict energy usage in the next hour** given historical consumption data provided by PJM Interconnection LLC Energy Consumption Dataset. I will be using both the GRU and LSTM model to train on a set of historical data and evaluate both models on an unseen test set. To do so, I'll start with feature selection, data-preprocessing, followed by defining, training, and eventually evaluating the models. I will use the PyTorch library to implement both types of models along with other common Python libraries used in data analytics. Finally, I will compare the performance of the GRU model against an LSTM model and BiLSTM as well. 
 
@@ -37,7 +37,7 @@ cd energy-consumption-prediction
 
 8. Open the directory of notebooks, using the below command. You'll see all the project files appear in your local environment; open the first notebook and follow the instructions.
 ```shell
-jupyter notebook
+jupyter notebook, Google COllab
 ```
 
 9. Once you open any of the project notebooks, make sure you are in the correct `energy_env` environment by clicking `Kernel > Change Kernel > energy_env`.
